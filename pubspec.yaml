@@ -30,6 +30,9 @@ dependencies:
   cupertino_icons: ^0.1.3
 
 dev_dependencies:
+  fish_redux: ^0.3.4
+  dio: ^3.0.10    #网络请求框架
+  json_annotation: ^3.0.1 #json序列化和反序列化用的
   flutter_test:
     sdk: flutter
 
