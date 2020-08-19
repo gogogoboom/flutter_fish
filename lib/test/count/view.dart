@@ -18,6 +18,7 @@ _bodyWidget(Dispatch dispatch, CountState state) {
   return Scaffold(
     appBar: AppBar(
       title: Text('Count Demo'),
+      backgroundColor: state.themeColor,
     ),
     body: Center(
       child: Column(
